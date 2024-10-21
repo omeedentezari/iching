@@ -1,0 +1,119 @@
+/*
+
+  I Ching Stylesheet
+  O'meed Entezari
+  omeed.entezari@icloud.com
+  October 2020
+
+*/
+
+/**  Body  **/
+body {
+	background-color:#222222;
+	font-family:Arial, Helvetica, sans-serif;
+  margin:10px 10px 10px 10px;
+	padding:10px 10px 10px 10px;
+}
+
+/**  Header and Navigation  **/
+header section h3, header section h3 a {
+	color:#ffffff;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+header section h3 a {
+  font-size:1.17em;
+}
+
+a {
+	background-color:#222222;
+	color:#ffffff;
+	font-size:12pt;
+	font-weight:bold;
+	border-radius:10px;
+	text-decoration:none;
+
+}
+
+header {
+  display:flex;
+}
+
+header section {
+  display:block;
+	width:200px;
+	text-align:center;
+}
+
+nav {
+	text-align:right;
+	width:100%;
+	clear:right;
+}
+
+nav ul {
+  display:flex;
+  align-items:flex-end;
+  align-content:flex-end;
+  justify-items:flex-end;
+  justify-content:flex-end;
+}
+
+nav ul li {
+	display:inline-block;
+	margin-right:40px;
+	margin-top:7.5px;
+}
+
+nav ul li a {
+	font-size:13pt;
+	font-weight:400;
+}
+
+/**  Page Content  **/
+#pl_subhead, #pj_subhead, #pc_subhead, #pi_subhead, #fj_subhead, #fi_subhead {
+  text-decoration:underline;
+}
+
+#page_content p {
+  margin-top:5px;
+  margin-bottom:15px;
+}
+
+#present_symbol, #future_symbol {
+  font-size:30pt;
+}
+
+#oracle_msg {
+  margin-top:60px;
+  margin-bottom:60px;
+}
+
+.change-text {
+  display:block;
+  margin-bottom:15px;
+}
+
+.special {
+  color:#ffea00;
+}
+
+#present_lines {
+  margin-top:10px;
+  margin-bottom:10px;
+  display:block;
+}
+
+#present_title, #future_title, #index_title {
+  font-size:14pt;
+  padding:10px 10px 10px 10px;
+}
+
+#page_content {
+  color:#ffffff;
+	padding-top:70px;
+	margin-left:20px;
+  letter-spacing:1.5px;
+	line-height:23.4px;
+}
